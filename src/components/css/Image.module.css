@@ -1,0 +1,39 @@
+.imageSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .ImageParent
+{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+} */
+
+.nestedImg
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.limg img
+{
+    height: 130px;
+    width: 130px;
+}
+
+.singleImg
+{
+    border: 2px solid black;
+    height: 520px;
+    width: 520px;
+}
+
+.singleImg img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}

@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav
+{
+    background-color: blueviolet;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: x-large;
+    color: azure;
+}
+
+.nav .link
+{
+    color: aliceblue;
+    text-decoration: none;
+}

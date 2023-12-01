@@ -1,0 +1,105 @@
+section
+{
+    background-color: antiquewhite;
+    width: 600px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin: 50px auto;
+    padding: 20px;
+    
+}
+
+.input
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.input input
+{
+    width: 60%;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.input button
+{
+    width: 15%;
+    background-color: green;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: serif;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+::placeholder
+{
+    /* font-style: italic; */
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+
+.tasks
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tasks span
+{
+    font-size: large;
+    font-weight: 700;
+    font-style: italic;
+    font-family: serif;
+    width: 60%;
+    margin-top: 20px;
+}
+
+
+.tasks div
+{
+    display: flex;
+    justify-content: space-around;
+}
+.tasks button
+{
+    width: 80px;
+    padding: 4px;
+    background-color: red;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: serif;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    /* margin-left: 100px; */
+    margin-top: 20px;
+}
+
+.add
+{
+    color: green;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
+
+.delete
+{
+    color: rgb(240, 7, 7);
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}

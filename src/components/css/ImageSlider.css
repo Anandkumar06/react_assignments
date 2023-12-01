@@ -1,0 +1,30 @@
+/* body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.image-container
+{
+    
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.image-container img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.image-container button
+{
+    background-color: firebrick;
+    color: white;
+    height: 30px;
+    width: 60px;
+    z-index: 5px;
+}
