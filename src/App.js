@@ -22,14 +22,14 @@ import Img4 from './components/Routing/Img4';
 // import StateWithObject from './components/StateWithObject'
 // import SetStateAsynchronous from './components/SetStateAsynchronous';
 // import StateWithArray from './components/StateWithArray';
-// import TodoApp from './components/TodoApp'
-// import Greeting from './components/Greeting'
+import TodoApp from './components/TodoApp'
+import Greeting from './components/Greeting'
 // import GitHubUser from './components/GitHubUser'
 // import FakeStoreApi from './components/FakeStoreApi'
 // import { useCounter } from './components/useCounter';
 // import { useOnlineStatus } from './components/useOnlineStatus';
-// import CustomFormValidation from "./components/CustomFormValidation"
-// import ImageSlider from './components/ImageSlider'
+import CustomFormValidation from "./components/CustomFormValidation"
+import ImageSlider from './components/ImageSlider'
 // import ReactHookForm from './components/ReactHookForm'
 // import SearchUsers from './components/SearchUsers'
 // import UseReducerHook from "./components/UseReducerHook"
@@ -109,7 +109,8 @@ function App({name,image}) {
    {/* Routing */}
    <Nav />
    <Routes>
-    <Route path='/' element={<Home/>} />
+    <Route path='/' element={<Greeting />} />
+    <Route path='/Home' element={<Home/>} />
     <Route path='/FakeStoreApi' element={<FakeStoreApi/>} />
     <Route path='/MovieApi' element={<MoviesApi />} />
     <Route path="/Image" element={<Image/>}>
@@ -119,6 +120,11 @@ function App({name,image}) {
         <Route path='Img3' element={<Img3/>}/>
         <Route path='Img4' element={<Img4/>}/>
       </Route>
+    <Route path="/ImageSlider" element={<ImageSlider/>}/>
+    <Route path="/CustomFormValidation" element={<CustomFormValidation/>}/>
+    <Route path="/TodoApp" element={<TodoApp/>}/>
+
+
    </Routes>
    </BrowserRouter>
   );

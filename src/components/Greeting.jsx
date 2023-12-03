@@ -1,5 +1,5 @@
 import React from 'react'
-import greeting from '../components/css/Greeting.module.css'
+// import greeting from '../components/css/Greeting.module.css'
 
 export default function Greeting()
 {
@@ -23,14 +23,14 @@ export default function Greeting()
     }else
     {
         greeting="Good Night!"
-        cssStyles.color="black"
+        cssStyles.color="white"
         backgroundCss.backgroundImage=`url("https://cdn.pixabay.com/photo/2018/01/29/12/02/night-3115977_1280.jpg")`
         backgroundCss.height="550px"
     }
 
     return (
-        <div style={backgroundCss}>
-        <h1>Hi Anand, <span style={cssStyles}> {greeting}</span></h1>
+        <div style={backgroundCss} className={greeting.greet}>
+        <h1 style={cssStyles}>Hi Anand, <span style={cssStyles}> {greeting}</span></h1>
         </div>
     )
 }
